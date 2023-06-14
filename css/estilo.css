@@ -166,7 +166,7 @@ section img{
     width: 500px;
 }
 iframe{
-    width: 500px;
+    width: 490px;
 }
 
 .num{text-align: center;
@@ -476,36 +476,72 @@ h5{
 
 
 /*Comienza la page Contacto*/
+.bodyContactos{
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    grid-template-rows: auto auto auto 10% ;
+    grid-template-areas:
+    "header    header      header"
+    "nav       contactos   mapa"
+    "nav       voto        voto" 
+    "footer    footer      footer";
+}
+
 #contactos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    grid-area: contactos;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contactos h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+}
+#contactos div a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #voto{
     display: flex;
     flex-direction: column;
-    justify-content:baseline;
     align-items: center;
+    margin: 65px 0;
+    grid-area: voto;
 }
+
 .contactosCaja{
-    width: 50%;
     text-align: center;
     margin-top: 200px;
     font-size: 20px;
 }
 .mapaContacto{
-    width: 50%;
     margin-top: 120px;
-    
+    display: flex;
+    justify-content: center;
 }
+
 .contactosCaja div{
     padding: 10px;
 }
 .valoracion{
     margin-top:20px ;
     font-size: 20px;
-    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.votoValoracion{
+    padding: 0 55px;
+    margin: 30px 0;
+}
+input{
+    padding: 3px 15px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border: beige 3 ;
+    font-size: 20px;
+}
+.boton {
+    padding-left: 35%;
 }
 section form div p{
     margin-bottom: 10px;
@@ -589,6 +625,40 @@ section form input{
         width: 70%;
         height: 55px;   
     }
+    
+    .brigada{
+        padding: 0 200px;
+    }
+    .trauma{
+        padding: 0 200px;
+    }
+    .rescate{
+        padding: 0 200px;
+    }
+    .hazmat{
+        padding: 0 200px;
+    }
+    .psicologia{
+        padding: 0 200px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+
+    h3{
+        padding: 0;
+    }
+
 }
 
 
@@ -651,8 +721,42 @@ section form input{
         width: 80%;
         height: auto;   
     }
+    
 
+    .brigada{
+        padding: 0 150px;
+    }
+    .trauma{
+        padding: 0 150px;
+    }
+    .rescate{
+        padding: 0 150px;
+    }
+    .hazmat{
+        padding: 0 150px;
+    }
+    .psicologia{
+        padding: 0 150px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+    
 
+    .bodyContactos{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -729,7 +833,35 @@ section form input{
         height: 55px;   
     }
 
-
+    
+    .brigada{
+        padding: 0 90px;
+    }
+    .trauma{
+        padding: 0 90px;
+    }
+    .rescate{
+        padding: 0 90px;
+    }
+    .hazmat{
+        padding: 0 90px;
+    }
+    .psicologia{
+        padding: 0 90px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
 }
 
 
@@ -742,7 +874,7 @@ section form input{
         padding: 2px 0
     }
     iframe{
-        width: 100%;
+        width: 90%;
     }
     .imagenCuartel{
         overflow: scroll;
@@ -756,41 +888,41 @@ section form input{
     }
 
     .activo{
-        padding: 0 60px;
+        padding: 0 40px;
     }
     .activoTitulo{
         width: 50%;
     }
     .reserva{
-        padding: 0 60px;
+        padding: 0 40px;
     }
     .reservaTitulo{
         width: 50%;
     }
     .auxiliar{
-        padding: 0 60px;
+        padding: 0 40px;
     }
     .auxiliarTitulo{
         width: 50%;
     }
     .cadetes{
-        padding: 0 60px;
+        padding: 0 40px;
     }
     .cadetesTitulo{
         width: 60%;
     }
     .comisionDirectiva{
-        padding: 0 60px;
+        padding: 0 40px;
     }
     .comisionTitulo{
         width: 60%;
     }
 
     .cajaCuartel{
-        padding: 0 50px;
+        padding: 0 40px;
     }
     .cajaEdificio{
-        padding: 0 50px;
+        padding: 0 40px;
     }
     .cuartelTitulo{
         width: 60%;
@@ -798,5 +930,59 @@ section form input{
     .tituloEdificio{
         width: 100%;
         height: auto;   
+    }
+
+
+
+    .brigada{
+        padding: 0 40px;
+    }
+    .trauma{
+        padding: 0 40px;
+    }
+    .rescate{
+        padding: 0 40px;
+    }
+    .hazmat{
+        padding: 0 40px;
+    }
+    .psicologia{
+        padding: 0 40px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+
+    .valoracion{
+        width: 95%;
+    }
+    .valoracion div{
+        text-align: center;
+        padding: 0 10px;
+    }
+    .votoValoracion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boton{
+        text-align: center;
+        padding-left: 0;
+    }
+    label{
+        padding: 10px 0;
+    }
+    input{
+        padding: 5px 0;
     }
 }
