@@ -1,43 +1,43 @@
 #edificio{
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    .cajaCuartel{
-        padding: 0 400px;
-        font-size: 20px;
-        margin: 15px 0 10px 0;
+}
+.cajaCuartel{
+    padding: 0 400px;
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+}
+.cuartelTitulo{
+    text-align: center;
+    margin: 30px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+.cajaEdificio{
+    padding: 0 400px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.tituloEdificio{
+    background-color: gray;
+    color: white;
+    width: 65%;
+    height: 32px;
+    padding-left: 5px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.lugar__container{
+    font-size: 20px;
+    margin:13px 0;
+    &__espacio{
+        margin-bottom: 10px;
+        font-size: 22px;
     }
-    .cuartelTitulo{
-        text-align: center;
-        margin: 30px 0;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 26px;
-    }
-    .cajaEdificio{
-        padding: 0 400px;
+    &__texto{
+        margin-top: 5px;
         font-size: 20px;
-        margin-bottom: 8px;
-    }
-    .tituloEdificio{
-        background-color: gray;
-        color: white;
-        width: 65%;
-        height: 32px;
-        padding-left: 5px;
-        margin-top: 25px;
-        margin-bottom: 8px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-    }
-    .lugar__container{
-        font-size: 20px;
-        margin:13px 0;
-        &__espacio{
-            margin-bottom: 10px;
-            font-size: 22px;
-        }
-        &__texto{
-            margin-top: 5px;
-            font-size: 20px;
-        }
     }
 }

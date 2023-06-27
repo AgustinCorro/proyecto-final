@@ -18,7 +18,8 @@ body {
 header {
   grid-area: header;
 }
-header .contenedor-header {
+
+.contenedor-header {
   background-color: cornflowerblue;
   color: white;
   text-align: center;
@@ -27,16 +28,19 @@ header .contenedor-header {
   display: flex;
   justify-content: center;
 }
-header .escudo {
+
+.escudo {
   width: 90px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-header img {
+
+img {
   margin-right: 2%;
 }
-header header div h1 {
+
+header div h1 {
   margin-right: 1%;
 }
 
@@ -44,19 +48,23 @@ header header div h1 {
   grid-area: nav;
   background-color: cornflowerblue;
 }
-.nav ul {
+
+ul {
   display: flex;
   flex-direction: column;
   margin-top: 80%;
 }
-.nav li {
+
+li {
   list-style-type: none;
   padding: 50px 0;
 }
-.nav li:visited {
+
+li:visited {
   color: white;
 }
-.nav a {
+
+a {
   text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
@@ -71,7 +79,8 @@ header header div h1 {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-#section1 .article {
+
+.article {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,10 +89,11 @@ header header div h1 {
   margin-bottom: 20px;
   width: 90%;
 }
-#section1 .article p {
+.article p {
   padding-bottom: 30px;
 }
-#section1 .inicioTitulo {
+
+.inicioTitulo {
   background-color: gray;
   color: white;
   width: 40%;
@@ -95,17 +105,20 @@ header header div h1 {
   text-align: center;
   border-radius: 5px;
 }
-#section1 .mapaUbicaion {
+
+.mapaUbicaion {
   width: 500px;
 }
-#section1 iframe {
+
+iframe {
   width: 490px;
 }
 
 #section2 {
   grid-area: section2;
 }
-#section2 .inicio2Titulo {
+
+.inicio2Titulo {
   background-color: gray;
   color: white;
   width: 20%;
@@ -117,7 +130,8 @@ header header div h1 {
   text-align: center;
   border-radius: 5px;
 }
-#section2 .article1 {
+
+.article1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +139,8 @@ header header div h1 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-#section2 .imagenCuartel {
+
+.imagenCuartel {
   display: inline-block;
   margin-bottom: 1.5%;
   overflow: hidden;
@@ -133,7 +148,8 @@ header header div h1 {
   width: 90%;
   height: 480px;
 }
-#section2 img {
+
+img {
   object-fit: cover;
 }
 
@@ -145,18 +161,21 @@ header header div h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
 }
-#fondo .telefono {
+
+.telefono {
   width: 20px;
   height: 20px;
 }
-#fondo .num {
+
+.num {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
 }
-#fondo h3 {
+
+h3 {
   padding-top: 8px;
 }
 
@@ -184,27 +203,29 @@ header header div h1 {
 #sectionPersonal h4 {
   margin: 7px 0;
 }
-#sectionPersonal .activo {
+
+.activo {
   font-size: 20px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   padding: 0 400px;
 }
-#sectionPersonal .activo p {
+.activo p {
   font-size: 16px;
   padding-right: 10px;
 }
-#sectionPersonal .activo .jefes {
+.activo .jefes {
   display: flex;
   flex-direction: column;
 }
-#sectionPersonal .activo .jefes p {
+.activo .jefes p {
   padding: 7px 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 18px;
 }
-#sectionPersonal .activoTitulo {
+
+.activoTitulo {
   background-color: gray;
   color: white;
   width: 20%;
@@ -216,18 +237,20 @@ header header div h1 {
   display: flex;
   justify-content: space-around;
 }
-#sectionPersonal .reserva {
+
+.reserva {
   font-size: 20px;
   margin: 40px 0;
   display: flex;
   flex-direction: column;
   padding: 0 400px;
 }
-#sectionPersonal .reserva p {
+.reserva p {
   font-size: 16px;
   padding-right: 10px;
 }
-#sectionPersonal .reservaTitulo {
+
+.reservaTitulo {
   background-color: gray;
   color: white;
   width: 26%;
@@ -239,18 +262,20 @@ header header div h1 {
   display: flex;
   justify-content: space-around;
 }
-#sectionPersonal .auxiliar {
+
+.auxiliar {
   font-size: 20px;
   margin: 40px 0;
   display: flex;
   flex-direction: column;
   padding: 0 400px;
 }
-#sectionPersonal .auxiliar p {
+.auxiliar p {
   font-size: 16px;
   padding-right: 10px;
 }
-#sectionPersonal .auxiliarTitulo {
+
+.auxiliarTitulo {
   background-color: gray;
   color: white;
   width: 23%;
@@ -262,18 +287,20 @@ header header div h1 {
   display: flex;
   justify-content: space-around;
 }
-#sectionPersonal .cadetes {
+
+.cadetes {
   font-size: 20px;
   margin: 40px 0;
   display: flex;
   flex-direction: column;
   padding: 0 400px;
 }
-#sectionPersonal .cadetes p {
+.cadetes p {
   font-size: 16px;
   padding-right: 10px;
 }
-#sectionPersonal .cadetesTitulo {
+
+.cadetesTitulo {
   background-color: gray;
   color: white;
   width: 28%;
@@ -285,18 +312,20 @@ header header div h1 {
   display: flex;
   justify-content: space-around;
 }
-#sectionPersonal .comisionDirectiva {
+
+.comisionDirectiva {
   font-size: 20px;
   margin: 40px 0;
   display: flex;
   flex-direction: column;
   padding: 0 400px;
 }
-#sectionPersonal .comisionDirectiva p {
+.comisionDirectiva p {
   font-size: 16px;
   padding-right: 10px;
 }
-#sectionPersonal .comisionTitulo {
+
+.comisionTitulo {
   background-color: gray;
   color: white;
   width: 28%;
@@ -308,17 +337,20 @@ header header div h1 {
   display: flex;
   justify-content: space-around;
 }
-#sectionPersonal h3 {
+
+h3 {
   padding-bottom: 15px;
 }
-#sectionPersonal h5 {
+
+h5 {
   padding: 15px 0;
 }
-#sectionPersonal .integrantes {
+
+.integrantes {
   display: flex;
   flex-direction: column;
 }
-#sectionPersonal .integrantes p {
+.integrantes p {
   padding: 7px 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
@@ -328,23 +360,27 @@ header header div h1 {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
 }
-#edificio .cajaCuartel {
+
+.cajaCuartel {
   padding: 0 400px;
   font-size: 20px;
   margin: 15px 0 10px 0;
 }
-#edificio .cuartelTitulo {
+
+.cuartelTitulo {
   text-align: center;
   margin: 30px 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 26px;
 }
-#edificio .cajaEdificio {
+
+.cajaEdificio {
   padding: 0 400px;
   font-size: 20px;
   margin-bottom: 8px;
 }
-#edificio .tituloEdificio {
+
+.tituloEdificio {
   background-color: gray;
   color: white;
   width: 65%;
@@ -355,15 +391,16 @@ header header div h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-#edificio .lugar__container {
+
+.lugar__container {
   font-size: 20px;
   margin: 13px 0;
 }
-#edificio .lugar__container__espacio {
+.lugar__container__espacio {
   margin-bottom: 10px;
   font-size: 22px;
 }
-#edificio .lugar__container__texto {
+.lugar__container__texto {
   margin-top: 5px;
   font-size: 20px;
 }
@@ -372,21 +409,23 @@ header header div h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-#brigadas .brigada {
+
+.brigada {
   padding: 0 400px;
 }
-#brigadas .brigada .brigadaTitulo {
+.brigada .brigadaTitulo {
   text-align: center;
   margin: 30px 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 26px;
 }
-#brigadas .trauma {
+
+.trauma {
   font-size: 20px;
   margin: 40px 0;
   padding: 0 400px;
 }
-#brigadas .trauma .traumaTitulo {
+.trauma .traumaTitulo {
   background-color: gray;
   color: white;
   width: 12%;
@@ -396,12 +435,13 @@ header header div h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-#brigadas .rescate {
+
+.rescate {
   font-size: 20px;
   margin: 40px 0;
   padding: 0 400px;
 }
-#brigadas .rescate .rescateTitulo {
+.rescate .rescateTitulo {
   background-color: gray;
   color: white;
   width: 25%;
@@ -411,12 +451,13 @@ header header div h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-#brigadas .hazmat {
+
+.hazmat {
   font-size: 20px;
   margin: 40px 0;
   padding: 0 400px;
 }
-#brigadas .hazmat .hazmatTitulo {
+.hazmat .hazmatTitulo {
   background-color: gray;
   color: white;
   width: 12%;
@@ -426,12 +467,13 @@ header header div h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-#brigadas .psicologia {
+
+.psicologia {
   font-size: 20px;
   margin: 40px 0;
   padding: 0 400px;
 }
-#brigadas .psicologia .psicologiaTitulo {
+.psicologia .psicologiaTitulo {
   background-color: gray;
   color: white;
   width: 36%;
@@ -461,12 +503,13 @@ header header div h1 {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
-#contactos .contactosCaja {
+
+.contactosCaja {
   text-align: center;
   margin-top: 200px;
   font-size: 20px;
 }
-#contactos .contactosCaja div {
+.contactosCaja div {
   padding: 10px;
 }
 
@@ -477,20 +520,23 @@ header header div h1 {
   margin: 65px 0;
   grid-area: voto;
 }
-#voto .valoracion {
+
+.valoracion {
   margin-top: 20px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-#voto .valoracion p {
+.valoracion p {
   margin-bottom: 10px;
   display: block;
 }
-#voto .votoValoracion {
+
+.votoValoracion {
   padding: 0 55px;
   margin: 30px 0;
 }
-#voto input {
+
+input {
   padding: 3px 15px;
   border-radius: 5px;
   background-color: cornflowerblue;
@@ -499,15 +545,16 @@ header header div h1 {
   border: beige 3;
   font-size: 20px;
 }
-#voto .boton {
+
+.boton {
   padding-left: 35%;
 }
-#voto .boton input {
+.boton input {
   font-size: 18px;
   margin-top: 10px;
 }
 
-#mapa .mapaContacto {
+.mapaContacto {
   margin-top: 120px;
   display: flex;
   justify-content: center;
