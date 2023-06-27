@@ -1,4 +1,4 @@
-@import "./base/reset.scss";
+@import "./base/reset";
 @import "./layout/header.scss";
 @import "./layout/nav.scss";
 @import "./pages/index.scss";
@@ -6,7 +6,7 @@
 @import "./pages/cuartel.scss";
 @import "./pages/brigadas.scss";
 @import "./pages/contacto.scss";
-@import "./components/boton.scss";
+@import "./components/boton";
 @import "./layout/footer.scss";
-@import "./mixins/mixin.scss";
-@import "./media/mediaqueris.scss";
+@import "./mixins/mixin";
+@import "./media/mediaqueris";

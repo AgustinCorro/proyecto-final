@@ -1,10 +1,10 @@
 /* Error: Undefined mixin.
  *    ,
- * 25 |     @include tituloIndex;
- *    |     ^^^^^^^^^^^^^^^^^^^^
+ * 50 |     @include cuerpoTitulo();
+ *    |     ^^^^^^^^^^^^^^^^^^^^^^^
  *    '
- *   estilos\scss\pages\index.scss 25:5  @import
- *   estilos\scss\main.scss 4:9          root stylesheet */
+ *   estilos\scss\pages\personal.scss 50:5  @import
+ *   estilos\scss\main.scss 5:9             root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 25 \2502      @include tituloIndex;\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   estilos\\scss\\pages\\index.scss 25:5  @import\a   estilos\\scss\\main.scss 4:9          root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 50 \2502      @include cuerpoTitulo();\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   estilos\\scss\\pages\\personal.scss 50:5  @import\a   estilos\\scss\\main.scss 5:9             root stylesheet";
 }
