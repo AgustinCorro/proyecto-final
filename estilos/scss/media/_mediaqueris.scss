@@ -1,0 +1,411 @@
+@media (max-width:1440px){
+    body{
+        grid-template-columns: 120px auto ;
+        grid-template-rows: auto auto auto auto 10% ;
+        grid-template-areas:
+        "header header   "
+        "nav    fondo    "
+        "nav    section1 " 
+        "nav    section2 "
+        "footer footer   ";
+    }
+    .activo{
+        padding: 0 200px;
+    }
+    .activoTitulo{
+        width: 40%;
+    }
+    .reserva{
+        padding: 0 200px;
+    }
+    .reservaTitulo{
+        width: 50%;
+    }
+    .auxiliar{
+        padding: 0 200px;
+    }
+    .auxiliarTitulo{
+        width: 46%;
+    }
+    .cadetes{
+        padding: 0 200px;
+    }
+    .cadetesTitulo{
+        width: 55%;
+    }
+    .comisionDirectiva{
+        padding: 0 200px;
+    }
+    .comisionTitulo{
+        width: 55%;
+    }
+
+    .cajaCuartel{
+        padding: 0 200px;
+    }
+    .cajaEdificio{
+        padding: 0 200px;
+    }
+    .cuartelTitulo{
+        width: 22%;
+    }
+    .tituloEdificio{
+        width: 70%;
+        height: 55px;   
+    }
+    
+    .brigada{
+        padding: 0 200px;
+    }
+    .trauma{
+        padding: 0 200px;
+    }
+    .rescate{
+        padding: 0 200px;
+    }
+    .hazmat{
+        padding: 0 200px;
+    }
+    .psicologia{
+        padding: 0 200px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+
+    h3{
+        padding: 0;
+    }
+
+}
+
+
+
+
+@media (max-width:1024px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        justify-content: center;
+    }
+    .activo{
+        padding: 0 120px;
+    }
+    .activoTitulo{
+        width: 40%;
+    }
+    .reserva{
+        padding: 0 120px;
+    }
+    .reservaTitulo{
+        width: 50%;
+    }
+    .auxiliar{
+        padding: 0 120px;
+    }
+    .auxiliarTitulo{
+        width: 46%;
+    }
+    .cadetes{
+        padding: 0 120px;
+    }
+    .cadetesTitulo{
+        width: 55%;
+    }
+    .comisionDirectiva{
+        padding: 0 120px;
+    }
+    .comisionTitulo{
+        width: 55%;
+    }
+    
+
+    .cajaCuartel{
+        padding: 0 150px;
+    }
+    .cajaEdificio{
+        padding: 0 150px;
+    }
+    .cuartelTitulo{
+        width: 30%;
+    }
+    .tituloEdificio{
+        width: 80%;
+        height: auto;   
+    }
+    
+
+    .brigada{
+        padding: 0 150px;
+    }
+    .trauma{
+        padding: 0 150px;
+    }
+    .rescate{
+        padding: 0 150px;
+    }
+    .hazmat{
+        padding: 0 150px;
+    }
+    .psicologia{
+        padding: 0 150px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+    
+
+    .bodyContactos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media (max-width:800px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    li{
+        padding:2px 0
+    }
+    .article{
+        width: 90%;
+    }
+    .mapaUbicaion{
+        width: 90%;
+    }
+    .inicio2Titulo{
+        width: 30%;
+    }
+
+    .activo{
+        padding: 0 90px;
+    }
+    .activoTitulo{
+        width: 60%;
+        height: auto;
+    }
+    .reserva{
+        padding: 0 90px;
+    }
+    .reservaTitulo{
+        width: 60%;
+        height: auto;
+    }
+    .auxiliar{
+        padding: 0 90px;
+    }
+    .auxiliarTitulo{
+        width: 60%;
+        height: auto;
+    }
+    .cadetes{
+        padding: 0 90px;
+    }
+    .cadetesTitulo{
+        width: 60%;
+        height: auto;
+    }
+    .comisionDirectiva{
+        padding: 0 90px;
+    }
+    .comisionTitulo{
+        width: 60%;
+        height: auto;
+    }
+
+    .cajaCuartel{
+        padding: 0 90px;
+    }
+    .cajaEdificio{
+        padding: 0 90px;
+    }
+    .cuartelTitulo{
+        width: 40%;
+    }
+    .tituloEdificio{
+        width: 80%;
+        height: 55px;   
+    }
+
+    
+    .brigada{
+        padding: 0 90px;
+    }
+    .trauma{
+        padding: 0 90px;
+    }
+    .rescate{
+        padding: 0 90px;
+    }
+    .hazmat{
+        padding: 0 90px;
+    }
+    .psicologia{
+        padding: 0 90px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+}
+
+
+
+
+
+@media (max-width: 500px){
+    li{
+        padding: 2px 0
+    }
+    iframe{
+        width: 90%;
+    }
+    .imagenCuartel{
+        overflow: scroll;
+    }
+    .inicio2Titulo{
+        width: 30%;    
+        height: 40%; 
+    }
+    .inicioTitulo{
+        height: 50px;
+    }
+
+    .activo{
+        padding: 0 40px;
+    }
+    .activoTitulo{
+        width: 50%;
+    }
+    .reserva{
+        padding: 0 40px;
+    }
+    .reservaTitulo{
+        width: 50%;
+    }
+    .auxiliar{
+        padding: 0 40px;
+    }
+    .auxiliarTitulo{
+        width: 50%;
+    }
+    .cadetes{
+        padding: 0 40px;
+    }
+    .cadetesTitulo{
+        width: 60%;
+    }
+    .comisionDirectiva{
+        padding: 0 40px;
+    }
+    .comisionTitulo{
+        width: 60%;
+    }
+
+    .cajaCuartel{
+        padding: 0 40px;
+    }
+    .cajaEdificio{
+        padding: 0 40px;
+    }
+    .cuartelTitulo{
+        width: 60%;
+    }
+    .tituloEdificio{
+        width: 100%;
+        height: auto;   
+    }
+
+
+    .brigada{
+        padding: 0 40px;
+    }
+    .trauma{
+        padding: 0 40px;
+    }
+    .rescate{
+        padding: 0 40px;
+    }
+    .hazmat{
+        padding: 0 40px;
+    }
+    .psicologia{
+        padding: 0 40px;
+    }
+    .traumaTitulo{
+        width: 100px;;
+    }
+    .rescateTitulo{
+        width: 250px;
+        height: auto;
+    }
+    .hazmatTitulo{
+        width: 100px;
+    }
+    .psicologiaTitulo{
+        width: 350px;
+    }
+
+    .valoracion{
+        width: 95%;
+    }
+    .valoracion div{
+        text-align: center;
+        padding: 0 10px;
+    }
+    .votoValoracion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boton{
+        text-align: center;
+        padding-left: 0;
+    }
+    label{
+        padding: 10px 0;
+    }
+    input{
+        padding: 5px 8px;
+    }
+}
