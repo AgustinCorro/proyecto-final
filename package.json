@@ -1,0 +1,13 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch ./estilos/scss/main.scss ./estilos/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

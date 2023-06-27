@@ -1,0 +1,73 @@
+#brigadas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    .brigada{
+        padding: 0 400px;
+        .brigadaTitulo{
+            text-align: center;
+            margin: 30px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 26px;
+        }
+    }
+    .trauma{
+        font-size: 20px;
+        margin: 40px 0;
+        padding: 0 400px;
+        .traumaTitulo{
+            background-color: gray;
+            color: white;
+            width: 12%;
+            height: 28px;
+            padding-left: 5px;
+            margin: 10px 0;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    }
+    .rescate{
+        font-size: 20px;
+        margin: 40px 0;
+        padding: 0 400px;
+        .rescateTitulo{
+            background-color: gray;
+            color: white;
+            width: 25%;
+            height: 28px;
+            padding-left: 5px;
+            margin: 10px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    }
+    .hazmat{
+        font-size: 20px;
+        margin: 40px 0;
+        padding: 0 400px;
+        .hazmatTitulo{
+            background-color: gray;
+            color: white;
+            width: 12%;
+            height: 28px;
+            padding-left: 5px;
+            margin: 10px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    }
+    .psicologia{
+        font-size: 20px;
+        margin: 40px 0;
+        padding: 0 400px;
+        .psicologiaTitulo{
+            background-color: gray;
+            color: white;
+            width: 36%;
+            height: 28px;
+            padding-left: 5px;
+            margin: 10px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    }
+}
