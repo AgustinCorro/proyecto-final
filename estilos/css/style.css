@@ -1,18 +1,962 @@
-/* Error: Undefined mixin.
- *    ,
- * 50 |     @include cuerpoTitulo();
- *    |     ^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   estilos\scss\pages\personal.scss 50:5  @import
- *   estilos\scss\main.scss 5:9             root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 50 \2502      @include cuerpoTitulo();\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   estilos\\scss\\pages\\personal.scss 50:5  @import\a   estilos\\scss\\main.scss 5:9             root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+main {
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 120px auto auto;
+  grid-template-rows: auto auto auto 10%;
+  grid-template-areas: "header    header   header" "nav    fondo    fondo" "nav    section1 section2" "footer footer   footer";
+}
+
+header {
+  grid-area: header;
+}
+
+.contenedor-header {
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.escudo {
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+img {
+  margin-right: 2%;
+}
+
+header div h1 {
+  margin-right: 1%;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: cornflowerblue;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80%;
+}
+
+li {
+  list-style-type: none;
+  padding: 50px 0;
+}
+
+li:visited {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  margin: 20px 0;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+.article p {
+  padding-bottom: 30px;
+}
+
+.inicioTitulo {
+  background-color: gray;
+  color: white;
+  width: 40%;
+  height: 34px;
+  padding-top: 5px;
+  margin: 7px 0 10px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.mapaUbicaion {
+  width: 500px;
+}
+
+iframe {
+  width: 490px;
+}
+
+#section2 {
+  grid-area: section2;
+}
+
+.inicio2Titulo {
+  background-color: gray;
+  color: white;
+  width: 20%;
+  height: 34px;
+  padding-top: 5px;
+  margin: 7px 0 10px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.imagenCuartel {
+  display: inline-block;
+  margin-bottom: 1.5%;
+  overflow: hidden;
+  object-fit: fill;
+  width: 90%;
+  height: 480px;
+}
+
+img {
+  object-fit: cover;
+}
+
+#fondo {
+  grid-area: fondo;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.telefono {
+  width: 20px;
+  height: 20px;
+}
+
+.num {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+h3 {
+  padding-top: 8px;
+}
+
+.cuerpo1 {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectionTitulo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 60px 0;
+  color: rgb(11, 20, 26);
+}
+#sectionTitulo .titulo {
+  width: 500px;
+  font-size: 20px;
+}
+
+#sectionPersonal {
+  padding-left: 3px;
+}
+#sectionPersonal h4 {
+  margin: 7px 0;
+}
+
+.activo {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 400px;
+}
+.activo p {
+  font-size: 16px;
+  padding-right: 10px;
+}
+.activo .jefes {
+  display: flex;
+  flex-direction: column;
+}
+.activo .jefes p {
+  padding: 7px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.activoTitulo {
+  background-color: gray;
+  color: white;
+  width: 20%;
+  height: 32px;
+  padding-left: 5px;
+  margin: 7px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reserva {
+  font-size: 20px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 400px;
+}
+.reserva p {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.reservaTitulo {
+  background-color: gray;
+  color: white;
+  width: 26%;
+  height: 32px;
+  padding-left: 5px;
+  margin: 7px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.auxiliar {
+  font-size: 20px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 400px;
+}
+.auxiliar p {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.auxiliarTitulo {
+  background-color: gray;
+  color: white;
+  width: 23%;
+  height: 32px;
+  padding-left: 5px;
+  margin: 7px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cadetes {
+  font-size: 20px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 400px;
+}
+.cadetes p {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.cadetesTitulo {
+  background-color: gray;
+  color: white;
+  width: 28%;
+  height: 32px;
+  padding-left: 5px;
+  margin: 7px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comisionDirectiva {
+  font-size: 20px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 400px;
+}
+.comisionDirectiva p {
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.comisionTitulo {
+  background-color: gray;
+  color: white;
+  width: 28%;
+  height: 32px;
+  padding-left: 5px;
+  margin: 7px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  padding-bottom: 15px;
+}
+
+h5 {
+  padding: 15px 0;
+}
+
+.integrantes {
+  display: flex;
+  flex-direction: column;
+}
+.integrantes p {
+  padding: 7px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+#edificio {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajaCuartel {
+  padding: 0 400px;
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+}
+
+.cuartelTitulo {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+
+.cajaEdificio {
+  padding: 0 400px;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.tituloEdificio {
+  background-color: gray;
+  color: white;
+  width: 65%;
+  height: 32px;
+  padding-left: 5px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.lugar__container {
+  font-size: 20px;
+  margin: 13px 0;
+}
+.lugar__container__espacio {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.lugar__container__texto {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+#brigadas {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.brigada {
+  padding: 0 400px;
+}
+
+.brigadaTitulo {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+
+.trauma {
+  font-size: 20px;
+  margin: 40px 0;
+  padding: 0 400px;
+}
+
+.traumaTitulo {
+  width: 12%;
+  height: 36px;
+  background-color: gray;
+  color: white;
+  padding-left: 5px;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.rescate {
+  font-size: 20px;
+  margin: 40px 0;
+  padding: 0 400px;
+}
+
+.rescateTitulo {
+  width: 28%;
+  height: auto;
+  background-color: gray;
+  color: white;
+  padding-left: 5px;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.hazmat {
+  font-size: 20px;
+  margin: 40px 0;
+  padding: 0 400px;
+}
+
+.hazmatTitulo {
+  width: 12%;
+  height: 36px;
+  background-color: gray;
+  color: white;
+  padding-left: 5px;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.psicologia {
+  font-size: 20px;
+  margin: 40px 0;
+  padding: 0 400px;
+}
+
+.psicologiaTitulo {
+  width: 28%;
+  height: 65px;
+  background-color: gray;
+  color: white;
+  padding-left: 5px;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.bodyContactos {
+  display: grid;
+  grid-template-columns: 120px 1fr 1fr;
+  grid-template-rows: auto auto auto 10%;
+  grid-template-areas: "header    header      header" "nav       contactos   mapa" "nav       voto        voto" "footer    footer      footer";
+}
+
+#contactos {
+  grid-area: contactos;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#contactos h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 28px;
+}
+#contactos a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactosCaja {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 20px;
+}
+.contactosCaja div {
+  padding: 10px;
+}
+
+#voto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 65px 0;
+  grid-area: voto;
+}
+
+.valoracion {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.valoracion p {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.votoValoracion {
+  padding: 0 55px;
+  margin: 30px 0;
+}
+
+input {
+  padding: 3px 15px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: beige 3;
+  font-size: 20px;
+}
+
+.boton {
+  padding-left: 35%;
+}
+.boton input {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.mapaContacto {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  padding-left: 35%;
+}
+.boton input {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+  margin-bottom: 0%;
+  width: 100%;
+  background-color: gray;
+  height: 50px;
+  padding-top: 15px;
+  bottom: 0%;
+}
+
+@media (max-width: 1440px) {
+  body {
+    grid-template-columns: 120px auto;
+    grid-template-rows: auto auto auto auto 10%;
+    grid-template-areas: "header header   " "nav    fondo    " "nav    section1 " "nav    section2 " "footer footer   ";
+  }
+  .activo {
+    padding: 0 200px;
+  }
+  .activoTitulo {
+    width: 40%;
+  }
+  .reserva {
+    padding: 0 200px;
+  }
+  .reservaTitulo {
+    width: 50%;
+  }
+  .auxiliar {
+    padding: 0 200px;
+  }
+  .auxiliarTitulo {
+    width: 46%;
+  }
+  .cadetes {
+    padding: 0 200px;
+  }
+  .cadetesTitulo {
+    width: 55%;
+  }
+  .comisionDirectiva {
+    padding: 0 200px;
+  }
+  .comisionTitulo {
+    width: 55%;
+  }
+  .cajaCuartel {
+    padding: 0 200px;
+  }
+  .cajaEdificio {
+    padding: 0 200px;
+  }
+  .cuartelTitulo {
+    width: 22%;
+  }
+  .tituloEdificio {
+    width: 70%;
+    height: 55px;
+  }
+  .brigada {
+    padding: 0 200px;
+  }
+  .trauma {
+    padding: 0 200px;
+  }
+  .rescate {
+    padding: 0 200px;
+  }
+  .hazmat {
+    padding: 0 200px;
+  }
+  .psicologia {
+    padding: 0 200px;
+  }
+  .traumaTitulo {
+    width: 100px;
+  }
+  .rescateTitulo {
+    width: 250px;
+    height: auto;
+  }
+  .hazmatTitulo {
+    width: 100px;
+  }
+  .psicologiaTitulo {
+    width: 350px;
+  }
+  h3 {
+    padding: 0;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: center;
+  }
+  .activo {
+    padding: 0 120px;
+  }
+  .activoTitulo {
+    width: 40%;
+  }
+  .reserva {
+    padding: 0 120px;
+  }
+  .reservaTitulo {
+    width: 50%;
+  }
+  .auxiliar {
+    padding: 0 120px;
+  }
+  .auxiliarTitulo {
+    width: 46%;
+  }
+  .cadetes {
+    padding: 0 120px;
+  }
+  .cadetesTitulo {
+    width: 55%;
+  }
+  .comisionDirectiva {
+    padding: 0 120px;
+  }
+  .comisionTitulo {
+    width: 55%;
+  }
+  .cajaCuartel {
+    padding: 0 150px;
+  }
+  .cajaEdificio {
+    padding: 0 150px;
+  }
+  .cuartelTitulo {
+    width: 30%;
+  }
+  .tituloEdificio {
+    width: 80%;
+    height: auto;
+  }
+  .brigada {
+    padding: 0 150px;
+  }
+  .trauma {
+    padding: 0 150px;
+  }
+  .rescate {
+    padding: 0 150px;
+  }
+  .hazmat {
+    padding: 0 150px;
+  }
+  .psicologia {
+    padding: 0 150px;
+  }
+  .traumaTitulo {
+    width: 100px;
+  }
+  .rescateTitulo {
+    width: 250px;
+    height: auto;
+  }
+  .hazmatTitulo {
+    width: 100px;
+  }
+  .psicologiaTitulo {
+    width: 350px;
+  }
+  .bodyContactos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    padding: 2px 0;
+  }
+  .article {
+    width: 90%;
+  }
+  .mapaUbicaion {
+    width: 90%;
+  }
+  .inicio2Titulo {
+    width: 30%;
+  }
+  .activo {
+    padding: 0 90px;
+  }
+  .activoTitulo {
+    width: 60%;
+    height: auto;
+  }
+  .reserva {
+    padding: 0 90px;
+  }
+  .reservaTitulo {
+    width: 60%;
+    height: auto;
+  }
+  .auxiliar {
+    padding: 0 90px;
+  }
+  .auxiliarTitulo {
+    width: 60%;
+    height: auto;
+  }
+  .cadetes {
+    padding: 0 90px;
+  }
+  .cadetesTitulo {
+    width: 60%;
+    height: auto;
+  }
+  .comisionDirectiva {
+    padding: 0 90px;
+  }
+  .comisionTitulo {
+    width: 60%;
+    height: auto;
+  }
+  .cajaCuartel {
+    padding: 0 90px;
+  }
+  .cajaEdificio {
+    padding: 0 90px;
+  }
+  .cuartelTitulo {
+    width: 40%;
+  }
+  .tituloEdificio {
+    width: 80%;
+    height: 55px;
+  }
+  .brigada {
+    padding: 0 90px;
+  }
+  .trauma {
+    padding: 0 90px;
+  }
+  .rescate {
+    padding: 0 90px;
+  }
+  .hazmat {
+    padding: 0 90px;
+  }
+  .psicologia {
+    padding: 0 90px;
+  }
+  .traumaTitulo {
+    width: 100px;
+  }
+  .rescateTitulo {
+    width: 250px;
+    height: auto;
+  }
+  .hazmatTitulo {
+    width: 100px;
+  }
+  .psicologiaTitulo {
+    width: 350px;
+  }
+}
+@media (max-width: 500px) {
+  li {
+    padding: 2px 0;
+  }
+  iframe {
+    width: 90%;
+  }
+  .imagenCuartel {
+    overflow: scroll;
+  }
+  .inicio2Titulo {
+    width: 30%;
+    height: 40%;
+  }
+  .inicioTitulo {
+    height: 50px;
+  }
+  .activo {
+    padding: 0 40px;
+  }
+  .activoTitulo {
+    width: 50%;
+  }
+  .reserva {
+    padding: 0 40px;
+  }
+  .reservaTitulo {
+    width: 50%;
+  }
+  .auxiliar {
+    padding: 0 40px;
+  }
+  .auxiliarTitulo {
+    width: 50%;
+  }
+  .cadetes {
+    padding: 0 40px;
+  }
+  .cadetesTitulo {
+    width: 60%;
+  }
+  .comisionDirectiva {
+    padding: 0 40px;
+  }
+  .comisionTitulo {
+    width: 60%;
+  }
+  .cajaCuartel {
+    padding: 0 40px;
+  }
+  .cajaEdificio {
+    padding: 0 40px;
+  }
+  .cuartelTitulo {
+    width: 60%;
+  }
+  .tituloEdificio {
+    width: 100%;
+    height: auto;
+  }
+  .brigada {
+    padding: 0 40px;
+  }
+  .trauma {
+    padding: 0 40px;
+  }
+  .rescate {
+    padding: 0 40px;
+  }
+  .hazmat {
+    padding: 0 40px;
+  }
+  .psicologia {
+    padding: 0 40px;
+  }
+  .traumaTitulo {
+    width: 100px;
+  }
+  .rescateTitulo {
+    width: 250px;
+    height: auto;
+  }
+  .hazmatTitulo {
+    width: 100px;
+  }
+  .psicologiaTitulo {
+    width: 350px;
+  }
+  .valoracion {
+    width: 95%;
+  }
+  .valoracion div {
+    text-align: center;
+    padding: 0 10px;
+  }
+  .votoValoracion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boton {
+    text-align: center;
+    padding-left: 0;
+  }
+  label {
+    padding: 10px 0;
+  }
+  input {
+    padding: 5px 8px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

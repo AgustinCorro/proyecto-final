@@ -47,7 +47,10 @@
     height: 32px;
     padding-left: 5px;
     margin:7px 0;
-    @include cuerpoTitulo();
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .reserva{
     font-size: 20px;
@@ -67,7 +70,10 @@
     height: 32px;
     padding-left: 5px;
     margin: 7px 0;
-    @include cuerpoTiitulo;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .auxiliar{
     font-size: 20px;
@@ -87,7 +93,10 @@
     height: 32px;
     padding-left: 5px;
     margin: 7px 0;
-    @include cuerpoTiitulo;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .cadetes{
     font-size: 20px;
@@ -107,7 +116,10 @@
     height: 32px;
     padding-left: 5px;
     margin: 7px 0;
-    @include cuerpoTitulo;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 .comisionDirectiva{
     font-size: 20px;
@@ -127,7 +139,10 @@
     height: 32px;
     padding-left: 5px;
     margin: 7px 0;
-    @include cuerpoTitulo;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 h3{
     padding-bottom: 15px;

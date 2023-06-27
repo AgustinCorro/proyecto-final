@@ -12,34 +12,62 @@
     font-size: 26px;
 }
 .trauma{
-    @include nombreBrigada;
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 0 400px;
 }
 .traumaTitulo{
     width: 12%;
     height: 36px;
-    @include brigadaTitulo;
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 .rescate{
-    @include nombreBrigada;
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 0 400px;
 }
 .rescateTitulo{
     width: 28%;
     height: auto;
-    @include brigadaTitulo;
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 .hazmat{
-    @include nombreBrigada;
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 0 400px;
 }
 .hazmatTitulo{
     width: 12%;
     height: 36px;
-    @include brigadaTitulo;
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 .psicologia{
-    @include nombreBrigada;
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 0 400px;
 }
 .psicologiaTitulo{
     width: 28%;
     height: 65px;
-    @include brigadaTitulo;
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
