@@ -1,0 +1,33 @@
+@mixin tituloIndex(){
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@mixin cuerpoTitulo(){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin nombreBrigada(){
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 0 400px;
+}
+
+@mixin brigadaTitulo(){
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+    margin: 10px 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+@mixin cuartelEdificio(){
+    padding: 0 400px;
+    font-size: 20px;
+}
