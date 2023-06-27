@@ -89,9 +89,6 @@
 
 }
 
-
-
-
 @media (max-width:1024px){
     body{
         display: flex;
@@ -134,7 +131,6 @@
         width: 55%;
     }
     
-
     .cajaCuartel{
         padding: 0 150px;
     }
@@ -148,7 +144,6 @@
         width: 80%;
         height: auto;   
     }
-    
 
     .brigada{
         padding: 0 150px;
@@ -179,15 +174,11 @@
         width: 350px;
     }
     
-
     .bodyContactos{
         display: flex;
         flex-direction: column;
     }
 }
-
-
-
 
 @media (max-width:800px){
     ul{
@@ -258,7 +249,6 @@
         height: 55px;   
     }
 
-    
     .brigada{
         padding: 0 90px;
     }
