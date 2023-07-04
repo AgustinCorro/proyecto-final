@@ -16,16 +16,8 @@
     }
 }
 .inicioTitulo{
-    background-color: gray;
-    color: white;
     width: 40%;
-    height: 34px;
-    padding-top: 5px;
-    margin:7px 0 10px 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 5px;
+    @include tituloInicio;
 }
 .mapaUbicaion{
     width: 500px;
@@ -37,16 +29,8 @@ iframe{
     grid-area: section2;
 }
 .inicio2Titulo{
-    background-color: gray;
-    color: white;
     width: 20%;
-    height: 34px;
-    padding-top: 5px;
-    margin:7px 0 10px 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 5px;
+    @include tituloInicio;
 
 }
 .article1{

@@ -94,9 +94,9 @@ a {
 }
 
 .inicioTitulo {
+  width: 40%;
   background-color: gray;
   color: white;
-  width: 40%;
   height: 34px;
   padding-top: 5px;
   margin: 7px 0 10px 0;
@@ -119,9 +119,9 @@ iframe {
 }
 
 .inicio2Titulo {
+  width: 20%;
   background-color: gray;
   color: white;
-  width: 20%;
   height: 34px;
   padding-top: 5px;
   margin: 7px 0 10px 0;
@@ -206,7 +206,7 @@ h3 {
 
 .activo {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin: 40px 0;
   display: flex;
   flex-direction: column;
   padding: 0 400px;
@@ -226,9 +226,9 @@ h3 {
 }
 
 .activoTitulo {
+  width: 20%;
   background-color: gray;
   color: white;
-  width: 20%;
   height: 32px;
   padding-left: 5px;
   margin: 7px 0;
@@ -251,9 +251,9 @@ h3 {
 }
 
 .reservaTitulo {
+  width: 26%;
   background-color: gray;
   color: white;
-  width: 26%;
   height: 32px;
   padding-left: 5px;
   margin: 7px 0;
@@ -276,9 +276,9 @@ h3 {
 }
 
 .auxiliarTitulo {
+  width: 23%;
   background-color: gray;
   color: white;
-  width: 23%;
   height: 32px;
   padding-left: 5px;
   margin: 7px 0;
@@ -301,9 +301,9 @@ h3 {
 }
 
 .cadetesTitulo {
+  width: 28%;
   background-color: gray;
   color: white;
-  width: 28%;
   height: 32px;
   padding-left: 5px;
   margin: 7px 0;
@@ -326,9 +326,9 @@ h3 {
 }
 
 .comisionTitulo {
+  width: 28%;
   background-color: gray;
   color: white;
-  width: 28%;
   height: 32px;
   padding-left: 5px;
   margin: 7px 0;
@@ -362,9 +362,9 @@ h5 {
 }
 
 .cajaCuartel {
+  margin: 15px 0 10px 0;
   padding: 0 400px;
   font-size: 20px;
-  margin: 15px 0 10px 0;
 }
 
 .cuartelTitulo {
@@ -375,9 +375,9 @@ h5 {
 }
 
 .cajaEdificio {
+  margin-bottom: 8px;
   padding: 0 400px;
   font-size: 20px;
-  margin-bottom: 8px;
 }
 
 .tituloEdificio {
@@ -859,40 +859,40 @@ input {
   }
   .inicio2Titulo {
     width: 30%;
-    height: 40%;
+    height: 45%;
   }
   .inicioTitulo {
-    height: 50px;
+    height: 55px;
   }
   .activo {
     padding: 0 40px;
   }
   .activoTitulo {
-    width: 50%;
+    width: 60%;
   }
   .reserva {
     padding: 0 40px;
   }
   .reservaTitulo {
-    width: 50%;
+    width: 60%;
   }
   .auxiliar {
     padding: 0 40px;
   }
   .auxiliarTitulo {
-    width: 50%;
+    width: 60%;
   }
   .cadetes {
     padding: 0 40px;
   }
   .cadetesTitulo {
-    width: 60%;
+    width: 70%;
   }
   .comisionDirectiva {
     padding: 0 40px;
   }
   .comisionTitulo {
-    width: 60%;
+    width: 70%;
   }
   .cajaCuartel {
     padding: 0 40px;
@@ -933,7 +933,7 @@ input {
     width: 100px;
   }
   .psicologiaTitulo {
-    width: 350px;
+    width: 320px;
   }
   .valoracion {
     width: 95%;

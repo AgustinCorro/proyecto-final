@@ -3,9 +3,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .cajaCuartel{
-    padding: 0 400px;
-    font-size: 20px;;
     margin: 15px 0 10px 0;
+    @include caja;
 }
 .cuartelTitulo{
     text-align: center;
@@ -14,9 +13,8 @@
     font-size: 26px;
 }
 .cajaEdificio{
-    padding: 0 400px;
-    font-size: 20px;;
     margin-bottom: 8px;
+    @include caja;
 }
 .tituloEdificio{
     background-color: gray;

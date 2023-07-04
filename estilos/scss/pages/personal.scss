@@ -21,11 +21,7 @@
     }
 }
 .activo{
-    font-size: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 400px;
+    @include cuerpos;
     p{
         font-size: 16px;
         padding-right: 10px;
@@ -41,108 +37,52 @@
     }
 }
 .activoTitulo{
-    background-color: gray;
-    color: white;
     width: 20%;
-    height: 32px;
-    padding-left: 5px;
-    margin:7px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
+    @include titulos;
 }
 .reserva{
-    font-size: 20px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 0 400px;
+    @include cuerpos;
     p{
         font-size: 16px;
         padding-right: 10px;
     }
 }
 .reservaTitulo{
-    background-color: gray;
-    color: white;
     width: 26%;
-    height: 32px;
-    padding-left: 5px;
-    margin: 7px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
+    @include titulos;
 }
 .auxiliar{
-    font-size: 20px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 0 400px;
+    @include cuerpos;
     p{
         font-size: 16px;
         padding-right: 10px;
     }
 }
 .auxiliarTitulo{
-    background-color: gray;
-    color: white;
     width: 23%;
-    height: 32px;
-    padding-left: 5px;
-    margin: 7px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
+    @include titulos;
 }
 .cadetes{
-    font-size: 20px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 0 400px;
+    @include cuerpos;
     p{
         font-size: 16px;
         padding-right: 10px;
     }
 }
 .cadetesTitulo{
-    background-color: gray;
-    color: white;
     width: 28%;
-    height: 32px;
-    padding-left: 5px;
-    margin: 7px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
+    @include titulos;
 }
 .comisionDirectiva{
-    font-size: 20px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 0 400px;
+    @include cuerpos;
     p{
         font-size: 16px;
         padding-right: 10px;
     }
 }
 .comisionTitulo{
-    background-color: gray;
-    color: white;
     width: 28%;
-    height: 32px;
-    padding-left: 5px;
-    margin: 7px 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
+    @include titulos;
 }
 h3{
     padding-bottom: 15px;
