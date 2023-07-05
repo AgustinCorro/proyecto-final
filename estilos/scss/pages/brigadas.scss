@@ -18,7 +18,7 @@
 }
 .traumaTitulo{
     width: 12%;
-    height: 36px;
+    height: 38px;
     @include brigadaTitulo;
 }
 .rescate{
@@ -27,7 +27,7 @@
     padding: 0 400px;
 }
 .rescateTitulo{
-    width: 28%;
+    width: 25%;
     height: auto;
     @include brigadaTitulo;
 }
@@ -38,7 +38,7 @@
 }
 .hazmatTitulo{
     width: 12%;
-    height: 36px;
+    height: 38px;
     @include brigadaTitulo;
 }
 .psicologia{
@@ -47,7 +47,7 @@
     padding: 0 400px;
 }
 .psicologiaTitulo{
-    width: 28%;
-    height: 65px;
+    width: 35%;
+    height: 55px;
     @include brigadaTitulo;
 }

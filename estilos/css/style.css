@@ -72,6 +72,12 @@ a {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   margin: 20px 0;
+  transition: all 2s;
+}
+
+a:hover {
+  color: midnightblue;
+  font-size: 22px;
 }
 
 #section1 {
@@ -226,16 +232,15 @@ h3 {
 }
 
 .activoTitulo {
-  width: 20%;
+  width: 18%;
   background-color: gray;
   color: white;
-  height: 32px;
+  height: 35px;
   padding-left: 5px;
   margin: 7px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-around;
+  border-radius: 4px;
 }
 
 .reserva {
@@ -251,16 +256,15 @@ h3 {
 }
 
 .reservaTitulo {
-  width: 26%;
+  width: 24%;
   background-color: gray;
   color: white;
-  height: 32px;
+  height: 35px;
   padding-left: 5px;
   margin: 7px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-around;
+  border-radius: 4px;
 }
 
 .auxiliar {
@@ -276,16 +280,15 @@ h3 {
 }
 
 .auxiliarTitulo {
-  width: 23%;
+  width: 20%;
   background-color: gray;
   color: white;
-  height: 32px;
+  height: 35px;
   padding-left: 5px;
   margin: 7px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-around;
+  border-radius: 4px;
 }
 
 .cadetes {
@@ -301,16 +304,15 @@ h3 {
 }
 
 .cadetesTitulo {
-  width: 28%;
+  width: 24%;
   background-color: gray;
   color: white;
-  height: 32px;
+  height: 35px;
   padding-left: 5px;
   margin: 7px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-around;
+  border-radius: 4px;
 }
 
 .comisionDirectiva {
@@ -326,16 +328,15 @@ h3 {
 }
 
 .comisionTitulo {
-  width: 28%;
+  width: 25%;
   background-color: gray;
   color: white;
-  height: 32px;
+  height: 35px;
   padding-left: 5px;
   margin: 7px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-around;
+  border-radius: 4px;
 }
 
 h3 {
@@ -383,13 +384,14 @@ h5 {
 .tituloEdificio {
   background-color: gray;
   color: white;
-  width: 65%;
-  height: 32px;
+  width: 63%;
+  height: 36px;
   padding-left: 5px;
   margin-top: 25px;
   margin-bottom: 8px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  border-radius: 4px;
 }
 
 .lugar__container {
@@ -429,13 +431,14 @@ h5 {
 
 .traumaTitulo {
   width: 12%;
-  height: 36px;
+  height: 38px;
   background-color: gray;
   color: white;
   padding-left: 5px;
   margin: 10px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  border-radius: 4px;
 }
 
 .rescate {
@@ -445,7 +448,7 @@ h5 {
 }
 
 .rescateTitulo {
-  width: 28%;
+  width: 25%;
   height: auto;
   background-color: gray;
   color: white;
@@ -453,6 +456,7 @@ h5 {
   margin: 10px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  border-radius: 4px;
 }
 
 .hazmat {
@@ -463,13 +467,14 @@ h5 {
 
 .hazmatTitulo {
   width: 12%;
-  height: 36px;
+  height: 38px;
   background-color: gray;
   color: white;
   padding-left: 5px;
   margin: 10px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  border-radius: 4px;
 }
 
 .psicologia {
@@ -479,14 +484,15 @@ h5 {
 }
 
 .psicologiaTitulo {
-  width: 28%;
-  height: 65px;
+  width: 35%;
+  height: 55px;
   background-color: gray;
   color: white;
   padding-left: 5px;
   margin: 10px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  border-radius: 4px;
 }
 
 .bodyContactos {
@@ -862,7 +868,10 @@ input {
     height: 45%;
   }
   .inicioTitulo {
-    height: 55px;
+    height: 35px;
+  }
+  .titulo {
+    padding: 0 25px;
   }
   .activo {
     padding: 0 40px;
@@ -933,7 +942,8 @@ input {
     width: 100px;
   }
   .psicologiaTitulo {
-    width: 320px;
+    width: 335px;
+    height: 35px;
   }
   .valoracion {
     width: 95%;
