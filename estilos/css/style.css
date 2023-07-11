@@ -100,7 +100,7 @@ a:hover {
 }
 
 .inicioTitulo {
-  width: 40%;
+  width: 12rem;
   background-color: gray;
   color: white;
   height: 34px;
@@ -125,7 +125,7 @@ iframe {
 }
 
 .inicio2Titulo {
-  width: 20%;
+  width: 12rem;
   background-color: gray;
   color: white;
   height: 34px;
@@ -632,9 +632,6 @@ input {
   .cajaEdificio {
     padding: 0 200px;
   }
-  .cuartelTitulo {
-    width: 22%;
-  }
   .tituloEdificio {
     width: 70%;
     height: 55px;
@@ -656,6 +653,7 @@ input {
   }
   .traumaTitulo {
     width: 100px;
+    height: auto;
   }
   .rescateTitulo {
     width: 250px;
@@ -663,9 +661,11 @@ input {
   }
   .hazmatTitulo {
     width: 100px;
+    height: auto;
   }
   .psicologiaTitulo {
     width: 350px;
+    height: auto;
   }
   h3 {
     padding: 0;
@@ -718,9 +718,6 @@ input {
   .cajaEdificio {
     padding: 0 150px;
   }
-  .cuartelTitulo {
-    width: 30%;
-  }
   .tituloEdificio {
     width: 80%;
     height: auto;
@@ -742,6 +739,7 @@ input {
   }
   .traumaTitulo {
     width: 100px;
+    height: auto;
   }
   .rescateTitulo {
     width: 250px;
@@ -749,9 +747,11 @@ input {
   }
   .hazmatTitulo {
     width: 100px;
+    height: auto;
   }
   .psicologiaTitulo {
     width: 350px;
+    height: auto;
   }
   .bodyContactos {
     display: flex;
@@ -772,9 +772,6 @@ input {
   }
   .mapaUbicaion {
     width: 90%;
-  }
-  .inicio2Titulo {
-    width: 30%;
   }
   .activo {
     padding: 0 90px;
@@ -817,9 +814,6 @@ input {
   .cajaEdificio {
     padding: 0 90px;
   }
-  .cuartelTitulo {
-    width: 40%;
-  }
   .tituloEdificio {
     width: 80%;
     height: 55px;
@@ -841,6 +835,7 @@ input {
   }
   .traumaTitulo {
     width: 100px;
+    height: auto;
   }
   .rescateTitulo {
     width: 250px;
@@ -848,27 +843,25 @@ input {
   }
   .hazmatTitulo {
     width: 100px;
+    height: auto;
   }
   .psicologiaTitulo {
     width: 350px;
+    height: auto;
   }
 }
 @media (max-width: 500px) {
   li {
     padding: 2px 0;
   }
+  .mapaUbicacion {
+    width: 100%;
+  }
   iframe {
     width: 100%;
   }
   .imagenCuartel {
     overflow: scroll;
-  }
-  .inicio2Titulo {
-    width: 30%;
-    height: 45%;
-  }
-  .inicioTitulo {
-    height: 55px;
   }
   .titulo {
     padding: 0 25px;
@@ -909,9 +902,6 @@ input {
   .cajaEdificio {
     padding: 0 40px;
   }
-  .cuartelTitulo {
-    width: 60%;
-  }
   .tituloEdificio {
     width: 100%;
     height: auto;
@@ -933,6 +923,7 @@ input {
   }
   .traumaTitulo {
     width: 100px;
+    height: auto;
   }
   .rescateTitulo {
     width: 250px;
@@ -940,10 +931,14 @@ input {
   }
   .hazmatTitulo {
     width: 100px;
+    height: auto;
   }
   .psicologiaTitulo {
-    width: 335px;
-    height: 35px;
+    width: 12rem;
+    height: auto;
+  }
+  .mapaContacto iframe {
+    width: 90%;
   }
   .valoracion {
     width: 95%;

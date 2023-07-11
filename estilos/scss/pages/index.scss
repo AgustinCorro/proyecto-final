@@ -16,7 +16,7 @@
     }
 }
 .inicioTitulo{
-    width: 40%;
+    width: 12rem;
     @include tituloInicio;
 }
 .mapaUbicaion{
@@ -29,7 +29,7 @@ iframe{
     grid-area: section2;
 }
 .inicio2Titulo{
-    width: 20%;
+    width: 12rem;
     @include tituloInicio;
 
 }
