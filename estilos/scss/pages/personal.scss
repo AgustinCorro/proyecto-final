@@ -37,7 +37,7 @@
     }
 }
 .activoTitulo{
-    width: 18%;
+    width: 170px;
     @include titulos;
 }
 .reserva{
@@ -48,7 +48,7 @@
     }
 }
 .reservaTitulo{
-    width: 24%;
+    width: 220px;
     @include titulos;
 }
 .auxiliar{
@@ -59,7 +59,7 @@
     }
 }
 .auxiliarTitulo{
-    width: 20%;
+    width: 190px;
     @include titulos;
 }
 .cadetes{
@@ -70,7 +70,7 @@
     }
 }
 .cadetesTitulo{
-    width: 24%;
+    width: 230px;
     @include titulos;
 }
 .comisionDirectiva{
@@ -81,7 +81,7 @@
     }
 }
 .comisionTitulo{
-    width: 25%;
+    width: 230px;
     @include titulos;
 }
 h3{
